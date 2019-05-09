@@ -1,0 +1,24 @@
+button {
+    display: block;
+    margin: 10px, auto;
+    border: 2px solid red;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    background-color: navy;
+    margin: 5px;
+    float: left; 
+   /* float: left: żeby były budowane obok siebie a nie pod sobą(bo block) */
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid black;
+}
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    border: 2px solid black;
+}
