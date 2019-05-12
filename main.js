@@ -33,39 +33,3 @@ activeNumber++
 btn.addEventListener("click", addElement); // bez wywołania 
 
 
- ///
-
- function addAllWords (...words) {
-     let txt = ""
-    for (let i = 0; i<words.length; i++){
-        txt +=words[i]
-    }
- return txt;
-    };
-    console.log(addAllWords("Kwiatki", "są", "piękniutkie"));
-////////
-
-    function addAllWords (...words) {
-        let txt = ""
-       for (let i = 0; i<words.length; i++){
-           txt += `${words[i]} ` //dzięki grawisom napisy zostaną rozdzielone spacją, ale bez nich też zadziała
-       }
-    return txt;
-       };
-       console.log(addAllWords("Kwiatki", "są", "piękniutkie"));
-       
-
-       ///
-       function showUsers(owner, ...others) {
-           console.log(`Na imprezie był ${owner} ${others.length ? "oraz" + " " + others + "." : "."}`)
-       }
-
-       showUsers("Marian");
-       showUsers("Marian", "Filip", "WIoleta", "Luis");
-////
-
-
-console.log(array90);
-var array90 = [];
-console.log(array90);
-console.log(array900);
