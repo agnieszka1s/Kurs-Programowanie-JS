@@ -32,4 +32,33 @@ activeNumber++
 
 btn.addEventListener("click", addElement); // bez wywołania 
 
+var x = 1;
+    let y = 2;
+    const z = 3;
 
+function a () {
+    var x = 10;
+    let y = 20;
+    const z = 30;
+    console.log(x);
+    console.log(y);
+    console.log(z);
+    function t () {
+    x = 100;
+   
+    console.log(x);
+    console.log(y);
+    console.log(z);
+    }
+    t();
+}
+  console.log(x);
+  console.log(y);
+  console.log(z);
+a();
+
+var a = 1;
+let a = 2;
+const a = 3;
+
+console.log(a);
