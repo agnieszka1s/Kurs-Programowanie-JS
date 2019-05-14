@@ -1,0 +1,16 @@
+body {
+    height: 10000vh;
+}
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    /* będzie przyklejony do strony nawet przy scrolowaniu */
+    position: fixed; 
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    /* wyśrodkowanie (przesunięcie o połowę elementu) */
+    transform: translate(-50%, -50%);
+}
