@@ -16,11 +16,11 @@ window.addEventListener("scroll", function(){
     }
 
     if (grow){ // true 
-        size += 10;
+        size += 1;
         square.style.width = size + "px";
         square.style.height = size + "px";
     } else {
-        size -= 10;
+        size -= 1;
         square.style.width = size + "px";
         square.style.height = size + "px";
     }  
