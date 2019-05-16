@@ -18,7 +18,7 @@ liElements = [...liElements]; //zamieniam na tablicę, żeby móc użyć metody
 
 
 liElements.forEach(element =>  // nadaję każdemu elementowi tablcicy font 10px
-   element.style.fontSize = font + "px"
+   element.style.fontSize = `${font}px`
    );
 
 const btn = document.querySelector('button');
@@ -28,7 +28,7 @@ btn.addEventListener("click", function(){
     font++;  
 
     liElements.forEach(element => 
-        element.style.fontSize = font + "px")
+        element.style.fontSize =`${font}px`)
 
     liElements.forEach(element => 
     element.style.display = "block")
