@@ -25,11 +25,12 @@ const btn = document.querySelector('button');
 console.log(btn); 
 
 btn.addEventListener("click", function(){
-liElements.forEach(element => 
+    font++;  
+
+    liElements.forEach(element => 
+        element.style.fontSize = font + "px")
+
+    liElements.forEach(element => 
     element.style.display = "block")
 });
 
-btn.addEventListener("click", function(){
-    liElements.forEach(element => 
-        element.style.fontSize = (font + 10) + "px")
-    });
